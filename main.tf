@@ -5,11 +5,14 @@
 module "alb-public" {
   source           = "./vendor/modules/alb"
   ALB_NAME         = "roboshop-public-lb"
+  INTERNAL         = false 
 }
 
 
 module "alb-private" {
   source           = "./vendor/modules/alb"
+  ALB_NAME         = "roboshop-private-lb"
+  INTERNAL         = true 
 }
 
 # You cannot parameterise the source section of the terraform module : Branc name cannot be parameterised. 
