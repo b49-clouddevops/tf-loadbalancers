@@ -1,6 +1,6 @@
 @Library('roboshop-shared-library@main') _
 
-env.REPONAME="terraform-"
+env.REPONAME="tf-loadbalancers"
 terraform()
 
 
