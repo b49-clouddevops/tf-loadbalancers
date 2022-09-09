@@ -1,7 +1,7 @@
 output "PUBLIC_ALB_ARN" {
-    value = module.alb-public.arn 
+    value = module.alb-public. 
 }
 
 output "PRIVATE_ALB_ARN" {
-    value = module.alb-private.arn 
+    value = module.alb-private.
 }
